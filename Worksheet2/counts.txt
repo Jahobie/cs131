@@ -1,0 +1,4 @@
+Line Count: 302 US_records.txt
+Word Count: 1448 US_records.txt
+Line Count: 238 music_records.txt
+Word Count: 830 music_records.txt

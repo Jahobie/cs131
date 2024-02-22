@@ -1,0 +1,170 @@
+    1  pwd
+    2  ls
+    3  pwd
+    4  ls
+    5  mkdir test
+    6  ls
+    7  rm test
+    8  rm -f test
+    9  rmdir test
+   10  ls
+   11  quit
+   12  exit
+   13  pwd
+   14  ls
+   15  pwd
+   16  mkdir test
+   17  ls
+   18  rmdir test
+   19  ls
+   20  exit
+   21  vi spotify-2023.csv
+   22  wget https://raw.githubusercontent.com/jyotikahp/DemoRepoForCS131/main/spotify-2023.csv
+   23  vi spotify-2023.csv
+   24  head -n10 spotify-2023.csv
+   25  wget www.github.com
+   26  $ git --version
+   27   git --version
+   28  history >pwd
+   29  pwd
+   30  cs
+   31  cd
+   32  mkdir "MyDirectory"
+   33  ls
+   34  cd MyDirectory
+   35  ls
+   36  history > cmds.log
+   37  git add cmds.log
+   38  cd https://github.com/Jahobie/cs131.git
+   39  cd MyDirectory
+   40  git init
+   41  touch test
+   42  git status
+   43  git add cmds.log
+   44  git commit -m "add cmds.log file"
+   45  git config jaydev101402@gmail.com
+   46  git config jaydev101402@gmail.com Jaykesh1314
+   47  git config --global user.email jaydev101402@gmail.com
+   48  git config -- global user.name Jahobie
+   49  git commit - m "add cmds.log file"
+   50  git status
+   51  git branch -M main
+   52  git remote add origin https://github.com/Jahobie/cs131.git
+   53  git push -u origin main
+   54  wget www.github.com
+   55  mkdir myproject
+   56  cd myproject
+   57  git init
+   58  git status
+   59  touch test
+   60  ls
+   61  git status
+   62  git remote add origin https://github.com/Jahobie/cs131.git
+   63  git push -u origin master
+   64  git push -origin main
+   65  git push -u origin main
+   66  git remote add origin https://github.com/Jahobie/cs131.git
+   67  git push -u origin main
+   68  echo "# cs131" >> worksheet1
+   69  git init
+   70  git add README.md
+   71  wget www.github.com
+   72  git add index.html
+   73  git status
+   74  git commit -m "first commit"
+   75  git config --global user.email "you@example.com"
+   76  git config --global user.email jaydev101402@gmail.com
+   77  gitconfig --global user.name Jahobie
+   78  git config --global user.name Jahobie
+   79  git commit -m "first commit"
+   80  git branch -M main
+   81  git remote add origin https://github.com/Jahobie/cs131.git
+   82  git push -u origin main
+   83  git clone https://github.com/Jahobie/cs131.git
+   84  git add history > cmds.log
+   85  history cmds.log
+   86  history > cmds.log
+   87  git add cmds.log
+   88  git push --set--upstream cmds.log master
+   89  git push -u cmds.log master
+   90  cs -/.ssh && ssh-keygen
+   91  cd  -/.ssh && ssh-keygen
+   92  wget www.github.com
+   93  mkdir Worksheet1
+   94  history > cmds.log
+   95  mv cmds.log Worksheet1/
+   96  cd Worksheet1
+   97  git remote add origin https://github.com/Jahobie/cs131.git
+   98  git add Worksheet1/cmds.log
+   99  git add cmds.log
+  100  git commit -m "add cmds.log file"
+  101  git status
+  102  git remote -v
+  103  git push -u origin master
+  104  git push -u origin main
+  105  [jaydevsp24@sjsu ~]$ git push -u origin main
+  106  Username for 'https://github.com': Jahobie
+  107  Password for 'https://Jahobie@github.com': 
+  108  remote: Support for password authentication was removed on August 13, 2021.
+  109  remote: Please see https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
+  110  fatal: Authentication failed for 'https://github.com/Jahobie/cs131.git/'
+  111  [jaydevsp24@sjsu ~]$ 
+  112  git push -u origin main
+  113  git status
+  114  ls | grep temp
+  115  ls0 a
+  116  ls - a
+  117  vi samplePdf.pdf
+  118  ls
+  119  rm MyDirectory
+  120  cd MyDirectory'
+  121  cd Mydirectory
+  122  ;
+  123  /
+  124  /
+  125  /
+  126  //
+  127  ls
+  128  cd MyDirectory
+  129  ls
+  130  cd ..
+  131  ls
+  132  wget https://raw.githubusercontent.com/jyotikahp/DemoRepoForCS131/main/Global%20YouTube%20Statistics.csv
+  133  ls
+  134  mkdir worksheet2
+  135  cd worksheet2
+  136  git init
+  137  grep "United States" Global Youtube Statistics.csv
+  138  grep "United States" your_file.csv
+  139  ls
+  140  wget https://raw.githubusercontent.com/jyotikahp/DemoRepoForCS131/main/Global%20YouTube%20Statistics.csv
+  141  grep "United States" Global YouTube Statistics.csv
+  142  ls
+  143* 
+  144  grep "United States" 'Global YouTube Statistics.csv' > US_records.txt
+  145  grep "Music" your_file.csv > music_records.txt
+  146  grep "Music" 'Global YouTube Statistics.csv' > music_records.txt
+  147  wc -l US_records.txt > counts.txt
+  148  wc -w US_records.txt >> counts.txt
+  149  vi counts.txt
+  150  wc -l music_records.txt > counts.txt
+  151  wc -w music_records.txt>>counts.txt
+  152  vi counts.txt
+  153  wc -l US_records.txt > counts.txt
+  154  wc -w music_records.txt>>counts.txt
+  155  vi counts.txt
+  156  cat counts_music.txt counts_us.txt > counts.txt
+  157  cat US_records.txt music_records.text > counts.txt
+  158  cat US_records.txt music_records.txt > counts.txt
+  159  vi counts.txt
+  160  truncate -s 0 counts.txt
+  161  vi counts.txt
+  162  vi US_records.txt
+  163  wc -l US_records.txt > counts.txt
+  164  wc -w US_records.txt >> counts.txt
+  165  vi counts.txt
+  166  wc -l music_record.txt >> counts.txt
+  167  wc -l music_records.txt >> counts.txt
+  168  wc -w music_records.txt >> counts.txt
+  169  vi counts.txt
+  170  history > cmds.log
