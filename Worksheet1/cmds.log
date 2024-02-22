@@ -1,0 +1,94 @@
+    1  pwd
+    2  ls
+    3  pwd
+    4  ls
+    5  mkdir test
+    6  ls
+    7  rm test
+    8  rm -f test
+    9  rmdir test
+   10  ls
+   11  quit
+   12  exit
+   13  pwd
+   14  ls
+   15  pwd
+   16  mkdir test
+   17  ls
+   18  rmdir test
+   19  ls
+   20  exit
+   21  vi spotify-2023.csv
+   22  wget https://raw.githubusercontent.com/jyotikahp/DemoRepoForCS131/main/spotify-2023.csv
+   23  vi spotify-2023.csv
+   24  head -n10 spotify-2023.csv
+   25  wget www.github.com
+   26  $ git --version
+   27   git --version
+   28  history >pwd
+   29  pwd
+   30  cs
+   31  cd
+   32  mkdir "MyDirectory"
+   33  ls
+   34  cd MyDirectory
+   35  ls
+   36  history > cmds.log
+   37  git add cmds.log
+   38  cd https://github.com/Jahobie/cs131.git
+   39  cd MyDirectory
+   40  git init
+   41  touch test
+   42  git status
+   43  git add cmds.log
+   44  git commit -m "add cmds.log file"
+   45  git config jaydev101402@gmail.com
+   46  git config jaydev101402@gmail.com Jaykesh1314
+   47  git config --global user.email jaydev101402@gmail.com
+   48  git config -- global user.name Jahobie
+   49  git commit - m "add cmds.log file"
+   50  git status
+   51  git branch -M main
+   52  git remote add origin https://github.com/Jahobie/cs131.git
+   53  git push -u origin main
+   54  wget www.github.com
+   55  mkdir myproject
+   56  cd myproject
+   57  git init
+   58  git status
+   59  touch test
+   60  ls
+   61  git status
+   62  git remote add origin https://github.com/Jahobie/cs131.git
+   63  git push -u origin master
+   64  git push -origin main
+   65  git push -u origin main
+   66  git remote add origin https://github.com/Jahobie/cs131.git
+   67  git push -u origin main
+   68  echo "# cs131" >> worksheet1
+   69  git init
+   70  git add README.md
+   71  wget www.github.com
+   72  git add index.html
+   73  git status
+   74  git commit -m "first commit"
+   75  git config --global user.email "you@example.com"
+   76  git config --global user.email jaydev101402@gmail.com
+   77  gitconfig --global user.name Jahobie
+   78  git config --global user.name Jahobie
+   79  git commit -m "first commit"
+   80  git branch -M main
+   81  git remote add origin https://github.com/Jahobie/cs131.git
+   82  git push -u origin main
+   83  git clone https://github.com/Jahobie/cs131.git
+   84  git add history > cmds.log
+   85  history cmds.log
+   86  history > cmds.log
+   87  git add cmds.log
+   88  git push --set--upstream cmds.log master
+   89  git push -u cmds.log master
+   90  cs -/.ssh && ssh-keygen
+   91  cd  -/.ssh && ssh-keygen
+   92  wget www.github.com
+   93  mkdir Worksheet1
+   94  history > cmds.log
