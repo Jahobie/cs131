@@ -1,0 +1,26 @@
+1) "mkdir Assignment1"
+
+2)"echo $SHELL" output: /bin/bash
+
+3) "echo $HOME" output: /mnt/scratch/SP24_CS131_Jyotika/jaydevsp24
+
+4) "id" output: uid=1199(jaydevsp24) gid=1199(jaydevsp24) groups=1199(jaydevsp24),78(S78)
+
+5) "mkdir myDir chmod u-w myDir" 
+	"cd myDir" Permission Denied
+	"ls myDir" Permission Denied
+	"ls -l" Total: 0
+	"touch myDir test.txt" Permission Denied
+
+6) "mkdir myDir2 myDir3"
+
+7) "cd myDir2 touch myFile.txt mv MyFile.txt myDir3"
+
+8)" free -m"  output:  total        used        free      shared  buff/cache   available
+Mem:          71367       32452       19708        3601       19206       33854
+Swap:          4119           0        4119
+
+9) /etc/os-release
+
+10) "ls -l/etc/os-release" output: lrwxrwxrwx. 1 root root 22 Apr  6  2022 /etc/os-release -> ..//usr/lib/os-release
+ 

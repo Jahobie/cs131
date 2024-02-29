@@ -1,0 +1,17 @@
+1)  cd Assignment1
+1)  touch Assignment1.txt
+2)  echo $SHELL
+2)  echo $HOME
+3)  id
+4)  mkdir myDir
+4)  chmod u-w myDir
+4)  cd myDir
+4)  ls
+4)  ls -l
+5)  mkdir myDir2 myDir3
+5)  cd myDir2
+6)  touch myFile.txt
+6)  mv myFile.txt myDir3
+8)  free -m
+10)  ls -l /etc/os-release
+  
