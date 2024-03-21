@@ -1,0 +1,60 @@
+1.
+find: ‘/etc/pki/rsyslog’: Permission denied
+find: ‘/etc/lvm/archive’: Permission denied
+find: ‘/etc/lvm/backup’: Permission denied
+find: ‘/etc/lvm/cache’: Permission denied
+find: ‘/etc/sssd’: Permission denied
+find: ‘/etc/polkit-1/rules.d’: Permission denied
+find: ‘/etc/polkit-1/localauthority’: Permission denied
+find: ‘/etc/grub.d’: Permission denied
+find: ‘/etc/nftables’: Permission denied
+find: ‘/etc/audit’: Permission denied
+find: ‘/etc/sudoers.d’: Permission denied
+find: ‘/etc/firewalld’: Permission denied
+a. In simple terms, we are using the find command to search for files in the /etc directory and its subdirectories. The -type f option tells find to only look for regular files (not directories or other types of files). Then, we are redirecting the output of the command (which lists the found files) to one file called one.txt and any error messages to another file called two.txt.
+
+b. Observations:
+
+one.txt: This file likely contains a list of regular files found within the /etc directory and its subdirectories. Each line probably represents the full path of a file.
+two.txt: This file likely contains any error messages generated during the execution of the find command. Since we are redirecting error output to this file, it might be empty if no errors occurred. If there are errors, they would provide information about what went wrong during the execution of the command.
+
+
+
+
+2. 1 subscribers,video views
+      1 98900000,77180169894
+      1 96700000,57856289381
+
+3. PID TTY          TIME CMD
+4070830 ?        00:00:00 systemd
+4070832 ?        00:00:00 (sd-pam)
+4070838 ?        00:00:00 sshd
+4070840 pts/28   00:00:00 bash
+4073106 pts/28   00:00:00 ps
+
+4.
+b.
+ PID TTY          TIME CMD
+4070830 ?        00:00:00 systemd
+4070832 ?        00:00:00 (sd-pam)
+4070838 ?        00:00:00 sshd
+4070840 pts/28   00:00:00 bash
+4074516 ?        00:00:00 sshd
+4074519 pts/8    00:00:00 bash
+4074704 pts/8    00:00:00 vim
+4074781 pts/28   00:00:00 ps
+c.
+After quiting vi in the first terminal , the vi process is no longer listed in the output. This ie because we terminated the vi process
+
+5.
+the init process is often referred to as systemd, which is responsible for initializing the system, managing services, and handling system events.
+1 systemd
+Command used: ps -eo pid,comm | grep '^*1 systemd$'
+
+
+6.
+The command ps aux is used to display information about all processes currently running on the system.ps is the command for listing processes.
+a option tells ps to show information about all processes for all users.
+u option specifies to display additional detailed information, including the user who owns the process and the CPU and memory usage.
+x option displays processes not attached to any terminal. So, ps aux provides a comprehensive overview of all processes running on the system, regardless of the user or terminal association.  
+

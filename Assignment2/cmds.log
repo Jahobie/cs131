@@ -1,0 +1,16 @@
+1.  find /etc -type f > one.txt > two.txt
+ 
+2. wget https://raw.githubusercontent.com/jyotikahp/DemoRepoForCS131/main/Global%20YouTube%20Statistics.csv
+2. cut -d ',' -f 3,4 "Global YouTube Statistics.csv" | sort | uniq -c | sort -nr | head -n 3
+   vi Assignment2.txt 
+3.  ps -u jaydevsp24
+    whoami
+    ps -u jaydevsp24
+    vi Assignment2.txt 
+4.  ps -u jaydevsp24
+    vi Assignment2.txt 
+    ps -u jaydevsp24
+    vi Assignment2.txt 
+5. ps -eo pid,comm | grep '^ *1 systemd$'
+   vi Assignment2.txt 
+ history | tail -n 30 > cmds.log
