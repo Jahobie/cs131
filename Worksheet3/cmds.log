@@ -1,0 +1,16 @@
+ Task 1:
+
+ grep -E "United States|United Kingdom|India" "Global YouTube Statistics.csv" | awk -F ',' '{print $2 ", " $15 ", " $8}' | sort -t ',' -k 2 -nr | head -n 3 > ws3.txt
+
+
+
+ Task2: 
+
+   awk -F',' '$5 == "Sports" {print $3, $2}' "Global YouTube Statistics.csv" | sort -t, -k1nr | head -n 1
+   awk -F',' '$5 == "Education" {print $3, $2}' "Global YouTube Statistics.csv" | sort -t, -k1nr | head -n 1
+    awk -F',' '$5 == "Entertainment" {print $3, $2}' "Global YouTube Statistics.csv" | sort -t, -k1nr | head -n 1
+    awk -F',' '$5 == "Sports" {print $3, $2}' "Global YouTube Statistics.csv" | sort -t, -k1nr | head -n 1 >> ws3.txt
+    awk -F',' '$5 == "Education" {print $3, $2}' "Global YouTube Statistics.csv" | sort -t, -k1nr | head -n 1 >> ws3.txt
+    awk -F',' '$5 == "Entertainment" {print $3, $2}' "Global YouTube Statistics.csv" | sort -t, -k1nr | head -n 1 >> ws3.txt
+    vi ws3.txt 
+    history | tail -n 10 > cmds.log
