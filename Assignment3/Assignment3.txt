@@ -1,0 +1,193 @@
+Task 1
+[jaydevsp24@sjsu Assignment3]$ vi Assignment3.txt
+Command:
+[jaydevsp24@sjsu Assignment3]$ wc -l last.fake
+Output:
+507 last.fake
+Command: [jaydevsp24@sjsu Assignment3]$ grep 'sp24' last.fake > lastsp24.fake
+	[jaydevsp24@sjsu Assignment3]$ wc -l lastsp24.fake
+Output:
+478 lastsp24.fake
+
+Task 2 
+The list of people who worked on Sunday are:
+Command:
+[jaydevsp24@sjsu Assignment3]$ grep 'Sun' lastsp24.fake | awk '{print $1}' | sort | uniq
+Output:
+aayushsp24
+akashsp24
+billysp24
+breannasp24
+briansp24
+chih-kuosp24
+fnusp24
+gavinsp24
+megansp24
+michellesp24
+swansp24
+xuebosp24
+[jaydevsp24@sjsu Assignment3]$ echo "Kudos to these people for putting in the work"
+Kudos to these people for putting in the work
+
+Task 3
+Night Owls List:
+Command:
+[jaydevsp24@sjsu Assignment3]$ awk '$6 >= "23:00:00" || $6 <= "04:00:00" {print $1}' lastsp24.fake | sort | uniq
+Output:
+aarushisp24
+aayushsp24
+ajaysp24
+akashsp24
+albertsp24
+alexsp24
+athishsp24
+ayesp24
+benjaminsp24
+bennysp24
+billysp24
+brandonsp24
+breannasp24
+briansp24
+chih-kuosp24
+connersp24
+daosp24
+davidsp24
+diyasp24
+dylansp24
+edisonsp24
+ericsp24
+farihasp24
+fnusp24
+gavinsp24
+georgesp24
+gradysp24
+gursimransp24
+hardiksp24
+jadonsp24
+jaydevsp24
+jessesp24
+jimmysp24
+jonathansp24
+justinsp24
+kevinsp24
+khushisp24
+kobesp24
+madhavsp24
+manassp24
+matthewsp24
+maysp24
+megansp24
+michellesp24
+nhatsp24
+nicholsonsp24
+nicolesp24
+piercesp24
+pratiksp24
+rickysp24
+robertosp24
+robertsp24
+ronsp24
+sandrasp24
+sangsp24
+sheelsp24
+sunidhisp24
+swansp24
+taliasp24
+tanishasp24
+tylermsp24
+tylersp24
+vaikuntamsp24
+xiaokesp24
+xuebosp24
+yelinsp24
+zakisp24
+[jaydevsp24@sjsu Assignment3]$ echo "Night Owls are dope. Please ensure you get enough sleep though."
+Night Owls are dope. Please ensure you get enough sleep though.
+
+Task 4
+
+Early Birds List:
+Command: 
+[jaydevsp24@sjsu Assignment3]$ awk '$6 >= "05:00:00" && $6 <= "09:00:00" {print $1}' lastsp24.fake | sort | uniq
+Output:
+ajaysp24
+ericsp24
+[jaydevsp24@sjsu Assignment3]$ echo "Early Birds are dope. Please ensure you get enough sleep though."
+Early Birds are dope. Please ensure you get enough sleep though.
+
+Task 5
+Command:
+[jaydevsp24@sjsu Assignment3]$ awk '$1 ~ /^t/' lastsp24.fake
+Output:
+tylersp24 pts/10       172.29.96.22     Tue Apr  9 22:35   still logged in
+tylersp24 pts/10                        Tue Apr  9 22:22 - 22:22  (00:00)
+tylersp24 pts/10                        Tue Apr  9 22:21 - 22:22  (00:00)
+tylersp24 pts/1                         Tue Apr  9 21:47 - 21:50  (00:03)
+tylersp24 pts/27       172.29.96.22     Tue Apr  9 21:46 - 22:35  (00:48)
+tylersp24 pts/37       172.29.96.107    Tue Apr  9 16:32 - 17:32  (01:00)
+tylersp24 pts/37       172.29.96.107    Tue Apr  9 16:31 - 16:32  (00:00)
+tylermsp24 pts/27       172.29.96.106    Tue Apr  9 16:21 - 19:46  (03:24)
+tylermsp24 pts/42       172.29.96.22     Mon Apr  8 22:18 - 00:39  (02:20)
+tylermsp24 pts/42                        Mon Apr  8 21:47 - 21:52  (00:05)
+tylermsp24 pts/38                        Mon Apr  8 20:57 - 21:31  (00:33)
+tylermsp24 pts/28       172.29.96.19     Mon Apr  8 20:41 - 22:06  (01:24)
+tylermsp24 pts/8                         Mon Apr  8 00:46 - 01:08  (00:22)
+tylermsp24 pts/8                         Mon Apr  8 00:44 - 00:45  (00:00)
+tylermsp24 pts/4        172.29.96.97     Mon Apr  8 00:44 - 03:10  (02:26)
+taliasp24 pts/1                         Sat Apr  6 19:16 - 19:37  (00:20)
+taliasp24 pts/1                         Sat Apr  6 19:16 - 19:16  (00:00)
+taliasp24 pts/1                         Sat Apr  6 19:14 - 19:14  (00:00)
+taliasp24 pts/1                         Sat Apr  6 19:02 - 19:02  (00:00)
+taliasp24 pts/1                         Sat Apr  6 18:56 - 18:56  (00:00)
+taliasp24 pts/10                        Sat Apr  6 17:43 - 18:50  (01:07)
+taliasp24 pts/8        172.29.96.86     Sat Apr  6 17:42 - 23:57  (06:14)
+taliasp24 pts/4                         Sat Apr  6 16:24 - 19:24  (02:59)
+taliasp24 pts/4                         Sat Apr  6 16:17 - 16:18  (00:00)
+taliasp24 pts/1        172.29.96.86     Sat Apr  6 16:16 - 18:38  (02:21)
+tylersp24 pts/32       172.29.96.67     Thu Mar 28 16:44 - 17:47  (01:02)
+tylermsp24 pts/4        172.29.96.63     Thu Mar 28 16:43 - 18:46  (02:02)
+tylermsp24 pts/36       172.29.96.37     Wed Mar 27 02:43 - 04:49  (02:05)
+tylermsp24 pts/28       172.29.96.44     Wed Mar 27 01:43 - 04:43  (02:59)
+tylersp24 pts/28       172.29.96.37     Wed Mar 27 00:41 - 00:49  (00:07)
+tanishasp24 pts/17       172.29.96.39     Wed Mar 27 00:35 - 05:48  (05:12)
+tylersp24 pts/34       172.29.96.40     Wed Mar 27 00:28 - 00:55  (00:27)
+tylersp24 pts/1        172.29.96.37     Wed Mar 27 00:18 - 00:42  (00:23)
+tylersp24 pts/28       172.29.96.40     Tue Mar 26 22:06 - 00:31  (02:24)
+tylermsp24 pts/17       172.29.96.1      Tue Mar 26 16:22 - 19:37  (03:15)
+tylersp24 pts/10       172.29.97.254    Tue Mar 26 16:21 - 18:26  (02:04)
+tylersp24 pts/29       172.29.97.222    Thu Mar 21 16:32 - 17:40  (01:07)
+
+Task 6
+Command:
+[jaydevsp24@sjsu Assignment3]$ awk -F: '$1 ~ /^a/ && $3 % 2 == 0' passwd.fake
+Output: 
+angie23fa:x:1004:1004::/mnt/scratch/angie23fa:/bin/bash
+areebah23fa:x:1016:1016::/mnt/scratch/areebah23fa:/bin/bash
+apple23fa:x:1018:1018::/mnt/scratch/apple23fa:/bin/bash
+ajay23fa:x:1030:1030::/mnt/scratch/ajay23fa:/bin/bash
+alan23fa:x:1032:1032::/mnt/scratch/alan23fa:/bin/bash
+amreenf23:x:1150:1150::/mnt/scratch/FA23_CS131_Ashish/amreenf23:/bin/bash
+acesp24:x:1174:1174::/mnt/scratch/FA23_CS131_Ashish/acesp24:/bin/bash
+akashsp24:x:1190:1190::/mnt/scratch/FA23_CS131_Ashish/akashsp24:/bin/bash
+ayesp24:x:1200:1200::/mnt/scratch/SP24_CS131_Jyotika/ayesp24:/bin/bash
+alexsp24:x:1202:1202::/mnt/scratch/SP24_CS131_Jyotika/alexsp24:/bin/bash
+aayushsp24:x:1204:1204::/mnt/scratch/SP24_CS131_Jyotika/aayushsp24:/bin/bash
+ajaysp24:x:1230:1230::/mnt/scratch/SP24_CS131_Jyotika/ajaysp24:/bin/bash
+ashish:x:1240:1240::/mnt/scratch/FA23_CS131_Ashish/ashish:/bin/bash
+amansp24:x:1242:1242::/mnt/scratch/SP24_CS131_Jyotika/amansp24:/bin/bash
+
+Task 7
+Command: 
+[jaydevsp24@sjsu Assignment3]$ sed 's/[[:alnum:][:space:]]//g' passwd.fake | sort -u
+Output:
+-::::-:/://
+-:::::///-://
+-:::::///__/-://
+-:::::/://
+::::-:///://
+:::::///://
+:::::///_/://
+:::::///__/://
+::::://://
+:::::/://
+
