@@ -1,0 +1,10 @@
+ vi US_data.sh
+ chmod +x US_data.sh 
+ ./US_data.sh 
+ ls
+ vi ws5.txt 
+ cd United\ States/
+ ls
+ vi Entertainment.txt 
+ cd ..
+ history | tail -n 10 > cmds.log
